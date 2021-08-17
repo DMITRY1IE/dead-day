@@ -1,0 +1,99 @@
+@media (max-width: 500px) {
+    .header-question__2 {
+        background-color: rgb(29, 29, 29);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 224px;
+        width: 100%;
+    }
+    .p-question__2 {
+        width: 235px;
+        height: 80px;
+        font-family: Bad Script;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        opacity: 0.6;
+        margin-top: 48px;
+    }
+    .question-eye-2 {
+        transform: rotate(-9.61deg);
+        width: 84px;
+        height: 44px;
+        margin-right: -300px;
+        margin-top: -20px;
+    }
+    .line-question__2 {
+        width: 100%;
+        height: 0px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-top: 37px;
+    }
+    .main-2 {
+        background-color: rgb(29, 29, 29);
+        height: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .h-question__1 {
+        width: 288px;
+        height: 50px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #f6c866;
+        margin-top: 6px;
+        margin-bottom: 22px;
+    }
+    .main-2 button {
+        width: 179px;
+        height: 40px;
+        background: linear-gradient(90deg, rgba(246, 200, 102, 0.9) -6.2%, rgba(254, 173, 53, 0.9) 100%);
+        border-radius: 50px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #ffffff;
+        margin-bottom: 35px;
+    }
+    .main-2 img {
+        margin-bottom: 5.61px;
+        margin-left: -40%;
+        width: 51px;
+        height: 51px;
+    }
+    .main-2 p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
