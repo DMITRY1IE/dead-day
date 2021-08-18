@@ -90,7 +90,7 @@
         width: 51px;
         height: 51px;
     }
-    .main-2 p {
+    .q-2 {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
@@ -100,6 +100,7 @@
         letter-spacing: 0.1em;
         margin-bottom: 20px;
         color: rgba(255, 255, 255, 0.6);
+        margin-top: -40%;
     }
 
     form {
@@ -111,7 +112,7 @@
         width: 179px;
         height: 40px;
         border-radius: 50px;
-        background-color: rgb(174, 174, 174);
+        background-color: linear-gradient(90deg, rgba(228, 228, 228, 0.9) -6.2%, rgba(203, 203, 203, 0.9) 100%);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;

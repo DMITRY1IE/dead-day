@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("elem").onclick = function () {
         event.preventDefault();
         var year_2 = document.getElementById("year").value;
+        var month_1 = document.getElementById('month_1').value;
+        // var day_1 = document.getElementById('day_1').value;
+        console.log(month_1);
         let year_3 = 2021 - year_2;
         console.log(year_2)
-
         console.log(year_3)
         if (year_3 >= 18, year_3 <= 35) {
             const window_36_45 = document.getElementById('window_36_45');
@@ -47,6 +49,25 @@ elem_1.addEventListener("click", () => {
         index_4.classList.remove('none')
     }, 2000);
 })
+// document.getElementById("month_1").onclick = function () {
+//     let month_1 = document.getElementById('month_1').value;
+//     console.log(month_1)
+
+// }
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     document.getElementById("day_1").onclick = function () {
+//         event.preventDefault();
+//         let day_1 = document.getElementById('day_1').value;
+//         console.log(day_1)
+
+//     }
+// });
+
+// let month_1 = document.getElementById('month_1').value;
+// let day_1 = document.getElementById('day_1').value;
+// console.log(month_1, day_1)
+
 
 
 

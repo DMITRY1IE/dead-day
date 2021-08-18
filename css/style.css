@@ -428,7 +428,7 @@ footer p {
     width: 91px;
     height: 91px;
 }
-.main-2 p {
+.q-2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -436,9 +436,10 @@ footer p {
     line-height: 14px;
     text-align: center;
     letter-spacing: 0.1em;
-    margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: -30px;
 }
+
 /* index-2 */
 form {
     width: 312.61px;
@@ -449,7 +450,7 @@ form p select {
     width: 312.61px;
     height: 69.86px;
     border-radius: 50px;
-    background-color: rgb(174, 174, 174);
+    background-color: linear-gradient(90deg, rgba(228, 228, 228, 0.9) -6.2%, rgba(203, 203, 203, 0.9) 100%);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -463,10 +464,14 @@ form p select {
     padding-top: 22px;
     padding-right: 2px;
 }
+.border-color {
+    border: 1px solid #ee5353;
+}
 .select {
     position: relative;
     display: inline-block;
 }
+
 .select:after {
     content: "▼";
     padding: 0 8px;
@@ -486,6 +491,10 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    margin-bottom: 20px;
+}
+.select {
+    margin-bottom: 10px;
 }
 
 /* index-3 */
