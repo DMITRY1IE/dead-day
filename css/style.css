@@ -545,6 +545,10 @@ select {
     margin-top: 24px;
 }
 
+.none {
+    display: none !important;
+}
+
 .poligon {
     width: 17px;
     height: 17px;
@@ -562,6 +566,7 @@ select {
     line-height: 20px;
     text-align: center;
     color: #202024;
+    transition: all 5s;
 }
 
 .h-question__4 {
