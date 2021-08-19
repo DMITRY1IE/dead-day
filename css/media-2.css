@@ -41,6 +41,7 @@
         align-items: center;
         justify-content: flex-start;
         flex-direction: column;
+        margin-top: -1p;
     }
 
     .h-question__1 {
@@ -142,6 +143,7 @@
         box-sizing: border-box;
     }
     select {
+        background-color: linear-gradient(90deg, rgba(228, 228, 228, 0.9) -6.2%, rgba(203, 203, 203, 0.9) 100%);
         padding-right: 25px;
         -webkit-appearance: none;
         -moz-appearance: none;
