@@ -12,11 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var year_2 = document.getElementById("year").value;
         var month_1 = document.getElementById('month_1').value;
         var day_1 = document.getElementById('day_1').value;
-        // console.log(month_1);
-        // console.log(year_2);
-        // console.log(day_1)
         let year_3 = 2021 - year_2;
-        // console.log(year_3)
         let day_sr = (day_1 == "0")
         let month_sr = (month_1 == "0")
         let year_sr = (year_2 == "0")
@@ -47,7 +43,6 @@ document.addEventListener("DOMContentLoaded", function () {
             const year_1_1 = document.getElementById('year')
             year_1_1.classList.remove('border-color')
         }
-        // -----------------------
         // ---------------------------------------
         if (year_3 >= 18, year_3 <= 35) {
             const window_36_45 = document.getElementById('window_36_45');
@@ -68,44 +63,25 @@ document.addEventListener("DOMContentLoaded", function () {
         // ---------------------------
         if (day_sr == true, month_sr == true, year_sr === true) {
             console.log('Error')
-        } else if (day_sr == false, month_sr == false, year_sr === false) {
-            if (year_sr === false, month_sr == false, day_sr == false) {
-                const elem_1 = document.getElementById('elem');
-                const main_3 = document.getElementById('main-3');
-                const index_2 = document.getElementById('index-2');
-                const index_4 = document.getElementById('index-4');
-                // elem_1.addEventListener("click", () => {
-                main_3.classList.remove('none')
-                index_2.classList.add('none')
-                setTimeout(function () {
-                    main_3.classList.add('none')
-                    index_4.classList.remove('none')
-                }, 2000);
-                // })
-                console.log('all-good')
+        } else if (day_sr == false) {
+            if (year_sr === false) {
+                if (month_sr == false) {
+                    const elem_1 = document.getElementById('elem');
+                    const main_3 = document.getElementById('main-3');
+                    const index_2 = document.getElementById('index-2');
+                    const index_4 = document.getElementById('index-4');
+                    main_3.classList.remove('none')
+                    index_2.classList.add('none')
+                    setTimeout(function () {
+                        main_3.classList.add('none')
+                        index_4.classList.remove('none')
+                    }, 2000);
+                    console.log('all-good')
+                }
             }
         }
 
     };
 });
-// ======================================================
-// const elem_1 = document.getElementById('elem');
-// const main_3 = document.getElementById('main-3');
-// const index_2 = document.getElementById('index-2');
-// const index_4 = document.getElementById('index-4');
 
-// if (day_sr == false, month_sr == false, year_sr == false) {
-//     const elem_1 = document.getElementById('elem');
-//     const main_3 = document.getElementById('main-3');
-//     const index_2 = document.getElementById('index-2');
-//     const index_4 = document.getElementById('index-4');
-//     elem_1.addEventListener("click", () => {
-//         main_3.classList.remove('none')
-//         index_2.classList.add('none')
-//         setTimeout(function () {
-//             main_3.classList.add('none')
-//             index_4.classList.remove('none')
-//         }, 2000);
-//     })
-// }
 
